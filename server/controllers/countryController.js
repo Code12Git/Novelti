@@ -1,12 +1,13 @@
 import axios from "axios";
+import dotenv from "dotenv";
+dotenv.config({ path: "./config.env" });
 
-const API_KEY = "YOUR_API_KEY"; // Replace with your actual API key
+const API_KEY = process.env.API_TOKEN; // Replace with your actual API key
 
 export const getCountriesFromAPI = async (req, res) => {
   try {
     const headers = {
-      "X-CSCAPI-KEY":
-        "ZzdhcDZ0dVF2eWlWcDlrU0VaeHA5T1R3R1RNclhDMW1xM3VjRU1Rcw==",
+      "X-CSCAPI-KEY": API_KEY,
     };
 
     // Make an API request to fetch the list of countries
@@ -28,8 +29,7 @@ export const getStatesByCountry = async (req, res) => {
   try {
     const { countryCode } = req.params; // You may receive the countryCode from the frontend
     const headers = {
-      "X-CSCAPI-KEY":
-        "ZzdhcDZ0dVF2eWlWcDlrU0VaeHA5T1R3R1RNclhDMW1xM3VjRU1Rcw==",
+      "X-CSCAPI-KEY": API_KEY,
     };
 
     // Make an API request to fetch the list of states based on the selected country
