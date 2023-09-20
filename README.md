@@ -80,9 +80,9 @@ The User Form Application is a versatile and user-friendly web application desig
 
 ## Contributing
 
-  Contributions to this project are welcome. Please follow the contributing guidelines for more information.
+   Contributions to this project are welcome. Please follow the contributing guidelines for more information.
 
 ## License
 
-  This project is licensed under the MIT License.
+   This project is licensed under the MIT License.
 
