@@ -1,7 +1,7 @@
 
 # User Form Application
 
-Create a single/multi-page application for a user form with the following fields:
+The User Form Application is a versatile and user-friendly web application designed to streamline the management of user information. This single/multi-page application empowers users to effortlessly create, view, edit, and delete user records while enforcing data validation for accurate and reliable data entry.
 
 - First Name (Not Null, Minimum 5 characters)
 - Last Name (Not Null, Minimum 5 characters)
