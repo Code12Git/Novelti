@@ -1,0 +1,57 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\91807\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react-hot-toast
+
+PATH: 
+  C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Ruby32-x64\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-16.0.1\bin;C:\MinGW\bin;C:\Program Files\Java\jdk-17.0.2\bin;C:\Program Files\Git\cmd;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\91807\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\nodejs\;C:\Program Files\MongoDB\Tools\100\bin;C:\Program Files\PuTTY\;C:\minikube;C:\Program Files\Docker\Docker\resources\bin;C:\Users\91807\.console-ninja\.bin;C:\Users\91807\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.1\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.1\bin;;C:\Users\91807\AppData\Local\GitHubDesktop\bin;C:\Program Files\MongoDB\Server\6.0\bin;C:\Users\91807\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Users\91807\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\91807\AppData\Roaming\npm;C:\Users\91807\AppData\Local\Microsoft\WinGet\Packages\Kubernetes.kubectl_Microsoft.Winget.Source_8wekyb3d8bbwe;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\91807\Desktop\Web development\Nextjs\Novelti\novelti\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node'
+
+npm manifest: 
+  {
+    "name": "client",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    },
+    "dependencies": {
+      "@emotion/react": "^11.11.1",
+      "@emotion/styled": "^11.11.0",
+      "@mui/icons-material": "^5.14.9",
+      "@mui/material": "^5.14.9",
+      "@reduxjs/toolkit": "^1.9.5",
+      "autoprefixer": "10.4.15",
+      "axios": "^1.5.0",
+      "eslint": "8.49.0",
+      "eslint-config-next": "13.4.19",
+      "font-awesome": "^4.7.0",
+      "next": "13.4.19",
+      "postcss": "8.4.29",
+      "react": "18.2.0",
+      "react-dom": "18.2.0",
+      "react-redux": "^8.1.2",
+      "react-select": "^5.7.4",
+      "redux-saga": "^1.2.3",
+      "redux-thunk": "^2.4.2",
+      "tailwindcss": "3.3.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
