@@ -5,7 +5,6 @@ import countryCodes from "@/data/data";
 import Select from "react-select";
 import axios from "../helper/axios";
 import { useRouter } from "next/navigation";
-import AddIcon from "@mui/icons-material/Add";
 const UserForm = () => {
   const router = useRouter();
   const [user, setUser] = useState({

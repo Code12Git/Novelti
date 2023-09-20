@@ -1,13 +1,15 @@
 import React from "react";
 import Update from "@/components/Update";
-import { useParams } from "next/navigation";
 
 const getUserById = async (id) => {
   console.log(id);
   try {
-    const res = await fetch(`http://localhost:8000/api/users/${id}`, {
-      cache: "no-store",
-    });
+    const res = await fetch(
+      `https://noveltibackend.onrender.com/api/users/${id}`,
+      {
+        cache: "no-store",
+      }
+    );
 
     if (!res.ok) {
       throw new Error("Failed to fetch topic");
